@@ -1,0 +1,17 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "socialPosts",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "socialPosts",
+      "kebab-case"
+    ]
+  }
+}

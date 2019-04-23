@@ -1,0 +1,9 @@
+<div class="post-outline">
+    <ul class="text">
+        <h2>{{ socialMediaPosts.header }}</h2>
+        <li>{{ socialMediaPosts.content }}</li>
+    </ul>
+    <div >
+        <button class="delete-button" (click)="deleteThought()" (deleteThisThought)="onDeleteThisThought($event)">&#10005;</button>
+    </div>
+</div>

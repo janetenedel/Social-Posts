@@ -1,0 +1,18 @@
+<h1>My Thoughts</h1>
+<div class="body-window">
+  <div class="form-main-window">
+    <post-form class="post-form-box" *ngIf="brandNewThoughts" (newPost)="onNewPost($event)"></post-form>
+  </div>
+    <div class="main-window">
+      <div class="main-content">
+        <button class="new-thought-button" (click)="newPost()">New Thoughts</button>
+        <div class="thought-window">
+          <div class="post-box">
+            <post (deleteThisThought)="onDeleteThisThought($event)" *ngFor="let item of displayPosts; let i = index" [socialMediaPosts]="item">
+            </post>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

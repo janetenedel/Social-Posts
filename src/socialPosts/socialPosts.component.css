@@ -1,0 +1,48 @@
+.body-window {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: flex-end;
+   flex-direction: column;
+
+}
+
+.main-window {
+    width: 800px;
+    margin-top: 15px;
+}
+
+.post-box {
+    border: #B3AAAB 1px solid;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #F2E9E5;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #384E50;
+    font-size: 35px;
+    display: block;
+    width: 100%;
+}
+
+.new-thought-button {
+    width: 100%;
+    border: #B3AAAB 1px solid;
+    border-radius: 5px;
+    height: 33px;
+    margin: 5px 0px 10px 0px;
+    font-size: 15px;
+    background-color: #F2E9E5;
+}
+
+.form-main-window {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+

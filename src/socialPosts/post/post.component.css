@@ -1,0 +1,29 @@
+.post-outline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    border-bottom: #B3AAAB 1px solid;
+}
+h2 {
+    color: #384E50;
+    margin-top: 0px;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin-right: 10px;
+}
+
+li {
+    color: #384E50;
+    list-style: none;
+}
+
+.delete-button {
+    border: none;
+    font-size: 1.3em;
+    background-color: #F2E9E5;
+    margin: 0px;
+}
